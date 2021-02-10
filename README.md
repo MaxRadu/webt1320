@@ -3,4 +3,4 @@
 <h1>My Website Project</h1>
 
 <a href="Lab 1/index.html" target="_blank">Lab1 - Hello World</a>
-<a href="Lab 3/index.html" target="_blank">Lab1 - ESO</a>
+<a href="Lab 2/index.html" target="_blank">Lab2 HTML Basic Structure
