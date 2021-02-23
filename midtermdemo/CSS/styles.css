@@ -1,0 +1,72 @@
+body {
+    background-color: darkslategray;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+header{
+    background-color: black;
+}
+
+header img {
+    display: block;
+    width: 75%;
+    margin: auto;
+    padding: 40px;
+}
+
+#container {
+    background-color: blanchedalmond;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
+nav {
+    background-color: darkslategray;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+nav a {
+    background-color: white;
+    padding: 20px 50px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px 10px 0 0;
+}
+
+nav a:hover {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+main {
+    padding: 20px;
+}
+
+main img {
+    display: block;
+    width: 75%;
+    margin: 20px auto;
+}
+
+.satele {
+    width: 25%;
+}
+
+.active {
+    background-color: black;
+
+}
+
