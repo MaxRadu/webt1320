@@ -15,8 +15,10 @@ h1, h2 {
 header img {
     display: flex;
     width: 100%;
-    width: 400px;
+    width: 1563px;
     margin: auto;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
 
 }
 
