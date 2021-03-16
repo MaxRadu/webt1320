@@ -19,6 +19,7 @@ header img {
     margin: auto;
     border-left: 4px solid black;
     border-right: 4px solid black;
+    border-bottom: 4px solid black;
 
 }
 
@@ -29,7 +30,6 @@ header img {
     padding: 20px;
     border-left: 4px solid black;
     border-right: 4px solid black;
-    border-top: 4px solid black;
     border-bottom: 4px solid black;
 }
 
