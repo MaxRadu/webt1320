@@ -4,130 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 7 - Audio, Video, and Table</title>
-    <style>
-        body {
-            background-color: salmon;
-            text-align: center;
-            color: whitesmoke;
-            
-            
-        }
-
-        video {
-            display: block;
-            margin: 20px auto;
-            width: 100%;
-        }
-
-        header {
-            background-color: white;
-            padding: 100px 0;
-            font-style: italic;
-            text-decoration-line: underline;
-            color: black;
-
-        }
-
-        header h1 {
-            font-size: 3em;
-            text-align: center;
-        }
-
-        main {
-            background-color: darkslateblue;
-            padding: 20px;
-            margin: 10px;
-        }
-
-        footer {
-            background-color: salmon;
-            padding: 20px;
-            text-align: center;
-        }
-
-        table {
-            width: 100%;
-
-        }
-
-        tr, td, th {
-            border: 4px solid black;
-            padding: 10px;
-            text-align: center;
-
-        }
-
-
-
-    </style>
-
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css>">
+    
 </head>
 <body>
-    
-    <header>
-        <h1>Welcome to the chill zone.</h1>
-    </header>
-    <main>
-        <h2>An ice cold chilled glass of relaxation, a warm blanket, and some chill tunes.</h2>
-        <p>Let the waves carry you away from stress and quench your thirst for a journey to something new.</p>
+    <div id="container">
+        <header>
+            <h1>Welcome to the chill zone</h1>
+        </header>
 
-                <h3>Table</h3>
+        <nav>
+            <ul>
+                <li><a href="#audio">Audio</a></li>
+                <li><a href="#video">Video</a></li>
+                <li><a href="#tables">Tables</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section id="audio">
+                <h2>An ice cold glass of relaxation, a warm blanket, and some chill tunes.</h2>
+                <br>
+                <h2>Some Relaxing Sounds ~</h2>
+                <br>
+                <h3>Sunset</h3>
+                <audio src="audio/audio_746c5a0fb3.mp3" controls></audio>
+                <h3>Moon</h3>
+                <audio src="audio/audio_fe0a9d9cbb.mp3" controls></audio>
+            </section>
 
-        <table>
-            <tr>
-                <th>-</th>
-                <th>_</th>
-                <th>-</th>
-            </tr>
+            <section id="video">
+                <br>
+                <br>
+                <h2>Videos ~</h2>
+                <br>
+                <h3>Sunset Video</h3>
+                <video src="video/Ocean-54081.mp4" type="video/mp4" controls poster="images/WipedOut.jpg"></video>
+                <h3>Moon Video</h3>
+                <video src="video/Moon-59026.mp4" type="video/mp4" controls></video>
+            </section>
+
+            <p>The Moon is Earth's only permanent natural satellite, it is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the
+                size of the planet that it orbits. The Moon always shows Earth the same face, it is in synchronous rotation with Earth. Its near side is marked by large dark plains that fill 
+                the spaces between the bright ancient crustal highlands and the prominent impact craters. The Moon's surface is actually dark, although compared to the night sky, it appears 
+                very bright with a reflectance just slightly higher than that of worn asphalt. The Moon is moving approximately 3.8 cm away from our planet every year. It's gravitational 
+                influence produces the ocean tides, body tides, and the slight lengthening of the day.
+            </p>
+            <br>
             
-            <tr>
-                <td>_</td>
-                <td>-</td>
-                <td>_</td>
-            </tr>
-        </table>
-        
-        <h3>Videos</h3>
+            <section id="tables">
+                <h2>Surf Rock Bands</h2>
+                <table>
+                    <tr>
+                        <th>Band</th>
+                        <th>Year Started</th>
+                        <th>Popular Song</th>
+                        <th>Album</th>
+                        <th>Most Recent Album</th>
+                    </tr>
+            
+                    <tr>
+                        <td>The Beach Boys</td>
+                        <td>1961</td>
+                        <td>Good Vibrations</td>
+                        <td>Smiley Smile</td>
+                        <td>The Beach Boys On Tour: 1968 (Live)</td>
+                    </tr>
 
-        <video controls>
-            <source src="video/Ocean-54081.mp4" type="video/mp4">
-        </video>
-        
-        <p>The Moon is Earth's only permanent natural satellite, it is the fifth-largest natural satellite in the Solar System, and the largest among planetary satellites relative to the
-            size of the planet that it orbits. The Moon always shows Earth the same face, it is in synchronous rotation with Earth. Its near side is marked by large dark plains that fill 
-            the spaces between the bright ancient crustal highlands and the prominent impact craters. The Moon's surface is actually dark, although compared to the night sky, it appears 
-            very bright with a reflectance just slightly higher than that of worn asphalt. The Moon is moving approximately 3.8 cm away from our planet every year. It's gravitational 
-            influence produces the ocean tides, body tides, and the slight lengthening of the day.  
+                    <tr>
+                        <td>Sad Girl</td>
+                        <td>2013</td>
+                        <td>Little Queenie</td>
+                        <td>The Hand That Did the Deed</td>
+                        <td>Water</td>
+                    </tr>    
+            
+                    <tr>
+                        <td>The Growlers</td>
+                        <td>2006</td>
+                        <td>Going Gets Tough</td>
+                        <td>Chinese Fountain</td>
+                        <td>Natural Affair</td>
+                    </tr>
 
-        </p>
+                    <tr>
+                        <td>*repeat repeat</td>
+                        <td>2015</td>
+                        <td>Girlfriend</td>
+                        <td>Floral Canyon</td>
+                        <td>Glazed</td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    
 
-        <video controls>
-                <source src="video/Moon-59026.mp4" type="video/mp4">    
-        </video>
-
-        <h3>Audio</h3>
-        <audio controls>
-            <source src="audio/audio_fe0a9d9cbb.mp3" type="audio/mp3">
-        </audio>    
-
-        <audio controls>
-                <source src="audio/audio_746c5a0fb3.mp3" type="audio/mp3">
-        </audio>
-        
-        <h3>Embedded Audio and Video</h3>
+        <h2>Random Indiana Jones with some Bell Peppers & Beef</h2>
 
         <iframe width="1800" height="600" src="https://www.youtube-nocookie.com/embed/mLqmDdjE1vg" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         <iframe width="1800" height="300" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/255502893&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/kendallmilesmusic" title="Kendall Miles" target="_blank" style="color: #cccccc; text-decoration: none;">Kendall Miles</a> · <a href="https://soundcloud.com/kendallmilesmusic/bell-peppers-beef-km-x-mukashi" title="Bell Peppers &amp; Beef  [Kendall X Mukashi]" target="_blank" style="color: #cccccc; text-decoration: none;">Bell Peppers &amp; Beef  [Kendall X Mukashi]</a></div>
 
-
     </main>
     <footer>&copy; 2021 Lab 7 - Random Audio, Video, and a Table</footer>
-
-
-
-
-
+</div>
 </body>
 </html>
