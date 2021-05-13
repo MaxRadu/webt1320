@@ -1,5 +1,9 @@
 /* global */
 
+@font-face { src: url(fonts/Canterbury.ttf);
+  font-family: canterbury;
+}
+
 body
 {
   font-family: "Roboto", sans-serif;
@@ -51,7 +55,8 @@ h1
 {
   text-align: center;
   font-size: 72pt;
-  font-family: "Bree Serif", serif;
+  font-family: canterbury;
+
   color: white;
 }
 
@@ -79,10 +84,10 @@ img.home-bkg-anim
 img.home-logo
 {
   width: 200px;
-  position: absolute;
+  position:fixed;
   left: 50px;
   top: 100px;
-  opacity: 0.15;
+  opacity: 0.50;
 }
 
 /* products */
