@@ -11,7 +11,6 @@
     <li><a href="Lab 6/index.html" target="_blank">Lab6 Responsive Design for Tablet and Desktop</a></li>
     <li><a href="Lab 7/index.html" target="blank">Lab7 Audio, Video, and Tables</a>
     <li><a href="Final/index.html" target="blank">Final</a>
-    </li>
 </ul>
 
 
