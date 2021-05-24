@@ -324,7 +324,7 @@ ul.contact li img
   margin: 20px;
 }
 
-ul.contact li info
+ul.contact li
 {
   flex: 200px;
   margin: 4px;
@@ -334,7 +334,7 @@ ul.contact li info
   text-align: center;
 }
 
-ul.contact li info label
+ul.contact li label
 {
   display: block;
   font-size: 24pt;
@@ -342,7 +342,7 @@ ul.contact li info label
   margin-bottom: 16px;
 }
 
-ul.contact li info description
+ul.contact li description
 {
   font-size: 16pt;
   text-align: center;
