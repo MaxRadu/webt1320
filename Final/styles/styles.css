@@ -51,6 +51,30 @@ img.logo
 
 /* home */
 
+ul.contact li {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+
+ul.contact li img {
+  height: 600px;
+  margin-left: 100px;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+ul.contact li description {
+  text-align: center;
+}
+
+ul.icons li img {
+display: flex;
+flex-direction: row;
+}
+
 h1
 {
   text-align: center;
