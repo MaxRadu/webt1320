@@ -1,0 +1,168 @@
+/* ---------------------------------- */
+/* BASIC SETUP */
+/* ---------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 45px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+/* ---------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ---------------------------------- */
+
+section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* -----BUTTONS----- */
+
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color: #ffffff;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+}
+
+.btn-1:link,
+.btn-1:visited {
+    color: #ffffff;
+    border: 1px solid#1abc9c;
+    margin-top: 65px;
+    margin-right: 65px;
+}
+
+.btn-2:link,
+.btn-2:visited {
+    color: #ffffff;
+    border: 1px solid#1abc9c;
+    margin-right: 65px;
+    margin-top: 65px;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid#1abc9c;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #094539;
+    border: 1px solid #094539;
+
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: #094539;
+    border: 1px solid #094539;
+
+
+}.btn-ghost:hover,
+.btn-ghost:active {
+    background-color: #094539;
+    color: #ffffff;
+}
+
+/* ---------------------------------- */
+/* HEADINGS */
+/* ---------------------------------- */
+
+.title-page-text-1 {
+    font-family: 'Canterbury';
+    font-size: 110px;
+}
+
+.title-page-text-2 {
+    font-family: 'Lato';
+}
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0.7)), url(images/skating.gif);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1, h2 {
+    margin: 0;
+    color: #ffffff;
+    font-weight: 300;
+    letter-spacing: 1px;
+    }
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    word-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+    h2 {
+    font-family: 'Lato';
+    color: #000000;
+    font-size: 125%;
+    word-spacing: 2px;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #1abc9c;
+    content: ;
+    width: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+/* ---STORE--- */
+
+h3 {
+    font-family: 'Lato';
+}
+
+p {
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Lato';
+    color: #000000;
+}
+
+
+
