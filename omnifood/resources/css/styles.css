@@ -18,15 +18,21 @@ html {
 /* REUSABLE COMPONENTS */
 /* ---------------------------------- */
 
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 section {
     padding: 80px 0;
     text-align: center;
 }
 
-.row {
-    max-width: 1140px;
-    margin: 0 auto;
+.box {
+    padding: 16%;
 }
+
+
 
 /* -----BUTTONS----- */
 
@@ -105,9 +111,9 @@ header {
 
 h1, h2 {
     margin: 0;
-    color: #ffffff;
     font-weight: 300;
     letter-spacing: 1px;
+    color: #ffffff;
     }
 
 h1 {
@@ -124,17 +130,29 @@ h1 {
     font-size: 125%;
     word-spacing: 2px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h2:after {
     display: block;
     height: 2px;
     background-color: #1abc9c;
-    content: ;
-    width: 100px;
+    content: "" ;
+    width: 300px;
     margin: 0 auto;
-    margin-bottom: 30px;
+    margin-top: 20px;
 }
+
+/*----PARAGRAPHS----*/
+
+p {
+    font-size: 100%;
+    font-family: 'Lato';
+    color: #000000;
+    margin-top: 40px;
+}
+
+
 
 .hero-text-box {
     position: absolute;
@@ -155,14 +173,52 @@ h2:after {
 
 h3 {
     font-family: 'Lato';
+    font-weight: 300;
 }
 
-p {
-    text-align: center;
-    font-size: 150%;
-    font-family: 'Lato';
-    color: #000000;
+/* ----IMAGES---- */
+
+.rug-showcase {
+    list-style: none;
+    width: 100%;
 }
+
+.rug-showcase li {
+    display:inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    font-family: 'Lato';
+}
+
+.rug-photo {
+    width: 100%;
+    margin: 0;
+    padding: 122px;
+    overflow: hidden;
+}
+
+.rug-photo img {
+    opacity: 0.8;
+    width: 100%;
+    height: 450px;
+    padding-bottom: 60px;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.rug-photo img:hover {
+    opacity: 1;
+    transform: scale(1.03);
+}
+
+
+
+.price-text {
+    font-weight: 400;
+}
+
+
 
 
 
