@@ -21,15 +21,12 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto;
+    font-size: 75%;
 }
 
 section {
     padding: 80px 0;
     text-align: center;
-}
-
-.box {
-    padding: 16%;
 }
 
 
@@ -39,29 +36,30 @@ section {
 .btn:link,
 .btn:visited {
     display: inline-block;
+    position: relative;
     padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
     color: #ffffff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-
+    margin-left: 18%;
 }
 
 .btn-1:link,
 .btn-1:visited {
     color: #ffffff;
     border: 1px solid#1abc9c;
-    margin-top: 65px;
-    margin-right: 65px;
+    /* margin-top: 65px;
+    margin-right: 65px; */
 }
 
 .btn-2:link,
 .btn-2:visited {
     color: #ffffff;
     border: 1px solid#1abc9c;
-    margin-right: 65px;
-    margin-top: 65px;
+    /* margin-right: 65px;
+    margin-top: 65px; */
 
 }
 
@@ -95,7 +93,7 @@ section {
 
 .title-page-text-1 {
     font-family: 'Canterbury';
-    font-size: 110px;
+    font-size: 200%;
 }
 
 .title-page-text-2 {
@@ -126,11 +124,11 @@ h1 {
 
     h2 {
     font-family: 'Lato';
-    color: #000000;
-    font-size: 125%;
+    font-size: 150%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    color: #000000;
 }
 
 h2:after {
@@ -138,7 +136,7 @@ h2:after {
     height: 2px;
     background-color: #1abc9c;
     content: "" ;
-    width: 300px;
+    width: 155px;
     margin: 0 auto;
     margin-top: 20px;
 }
@@ -155,9 +153,10 @@ p {
 
 
 .hero-text-box {
-    position: absolute;
+    position: relative;
     width: 1140px;
-    top: 50%;
+    margin-bottom: 7%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -167,6 +166,7 @@ p {
     width: auto;
     float: left;
     margin-top: 20px;
+    border-radius: 8px;
 }
 
 /* ---STORE--- */
@@ -175,8 +175,6 @@ h3 {
     font-family: 'Lato';
     font-weight: 300;
 }
-
-/* ----IMAGES---- */
 
 .rug-showcase {
     list-style: none;
@@ -212,11 +210,70 @@ h3 {
     transform: scale(1.03);
 }
 
-
-
 .price-text {
     font-weight: 400;
 }
+
+.store-page {
+    background-color: #f8f8f8;
+}
+
+/* ----CONTACT PAGE---- */
+.section-contact-page {
+    padding-top: 50px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.section-contact-page img {
+    width: 450px;
+    height: 550px;
+    margin-bottom: 15px;
+    padding-top: 50px;
+    padding-right: 100px;
+    }
+
+.section-contact-page p {
+        font-size: 400%;
+        font-family: 'Lato';
+        color: #ffffff;
+        margin-top: 100px;
+    }
+
+.give-us-a-shout {
+    color: #ffffff;
+    font-size: 130%;
+    padding-bottom: 3%;
+}
+
+.cube {
+    font-size: 20px;
+}
+
+/* ---PROCESS--- */
+
+.box img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 15px;
+    padding-right: 30px;
+}
+
+.section-about-page p {
+    font-size: 70%;
+    font-family: 'Lato';
+    font-weight: normal;
+}
+    
+
+
+
+
+
+
+
+
+
 
 
 
