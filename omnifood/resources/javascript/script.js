@@ -28,7 +28,16 @@ $('.js--scroll-to-contact-page').click(function () {
     $('html, body').animate({scrollTop: $('.js--section-contact-page').offset().top}, 1300);
 });
 
+
+// Animations on scroll
+$('.js--wp-1').waypoint(function() {
+    $('.js--wp-1').addClass('animated fadeIn');
+})
+
+
+
 });
+
 
 
 

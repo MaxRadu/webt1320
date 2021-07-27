@@ -8,6 +8,7 @@
         <title>Sleepyhead Rugs</title>
 </head>
     <body>
+        <div id="like_button_container"></div>
         <header>
             <nav>
                 <div class="row">
@@ -41,7 +42,7 @@
 
         <section class="section-store-page js--section-store-page" id="store">
             <h2>High quality handmade rugs.</h2>
-            <ul class="rug-showcase">
+            <ul class="rug-showcase js--wp-1">
                 <li>
                     <figure class="rug-photo">
                         <img src="resources/images/Above Aphex Rug.jpg" alt="Aphex Twins Rug">
@@ -168,6 +169,12 @@
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="/resources/javascript/script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css"/>
+        <!-- Loads React. -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+        <!-- Load our React component -->
+        <script src="like_button.js"></script>
     </body>
     
 
