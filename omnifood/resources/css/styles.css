@@ -25,7 +25,7 @@ html {
 .row {
     max-width: 1140px;
     margin: 0 auto;
-    font-size: 75%;
+    font-size: 100%;
 }
 
 section {
@@ -41,13 +41,15 @@ section {
 .btn:visited {
     display: inline-block;
     position: relative;
-    padding: 10px 30px;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
     color: #ffffff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    margin-left: 18%;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 50%;
+    font-size: 50%;
 }
 
 .btn-1:link,
@@ -56,6 +58,9 @@ section {
     border: 1px solid#1abc9c;
     /* margin-top: 65px;
     margin-right: 65px; */
+    width: 50%;
+    padding: 2px 55px;
+    margin-top: 35%;
 }
 
 .btn-2:link,
@@ -64,12 +69,16 @@ section {
     border: 1px solid#1abc9c;
     /* margin-right: 65px;
     margin-top: 65px; */
+    width: 50%;
+    padding: 2px 50px;
 
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid#1abc9c;
+    width: 50%;
+    padding: 2px 45px;
 }
 
 .btn:hover,
@@ -97,18 +106,21 @@ section {
 
 .title-page-text-1 {
     font-family: 'Canterbury';
-    font-size: 200%;
+    font-size: 50%;
+    width: 100%;
 }
 
 .title-page-text-2 {
     font-family: 'Lato';
+    font-size: 50%;
 }
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0.7)), url(images/skating.gif);
-    height: 100vh;
+    height: 800px;
     background-size: cover;
     background-position: center;
+    width: 100%;
 }
 
 h1, h2 {
@@ -128,11 +140,12 @@ h1 {
 
     h2 {
     font-family: 'Lato';
-    font-size: 150%;
+    font-size: 70%;
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
     color: #000000;
+
 }
 
 h2:after {
@@ -158,7 +171,7 @@ p {
 
 .hero-text-box {
     position: relative;
-    width: 1140px;
+    width: 100%;
     margin-bottom: 7%;
     top: 30%;
     left: 50%;
@@ -182,31 +195,29 @@ h3 {
 
 .rug-showcase {
     list-style: none;
-    width: 100%;
 }
 
 .rug-showcase li {
     display:inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
     font-family: 'Lato';
+    font-size: 70%;
 }
 
 .rug-photo {
-    width: 100%;
-    margin: 0;
-    padding: 122px;
+    margin: 50;
+    padding: 70px;
     overflow: hidden;
 }
 
 .rug-photo img {
     opacity: 0.8;
-    width: 100%;
-    height: 450px;
+    height: 400px;
     padding-bottom: 60px;
     transform: scale(1.15);
     transition: transform 0.5s, opacity 0.5s;
+    width: 150%;
 }
 
 .rug-photo img:hover {
@@ -220,6 +231,7 @@ h3 {
 
 .store-page {
     background-color: #f8f8f8;
+    width: 100%;
 }
 
 /* ----CONTACT PAGE---- */
@@ -230,7 +242,7 @@ h3 {
 }
 
 .section-contact-page img {
-    width: 450px;
+    width: 100%;
     height: 550px;
     margin-bottom: 15px;
     padding-top: 50px;
@@ -257,7 +269,7 @@ h3 {
 /* ---PROCESS--- */
 
 .box img {
-    width: 300px;
+    width: 100%;
     height: 300px;
     margin-bottom: 15px;
     padding-right: 30px;
@@ -272,11 +284,11 @@ h3 {
 /* ---ANIMATIONS--- */
 
 .js--wp-1 {
-    opacity: 0;
+    
 }
 
 .js--wp-1.animated {
-    opacity: 1;
+    
 }
 
 /* ---RESPONSIVE--- */
