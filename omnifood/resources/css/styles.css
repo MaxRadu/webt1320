@@ -53,9 +53,9 @@ section {
     color: #ffffff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
     margin-left: 25%;
-    margin-top: 10%;
+    margin-top: 5%;
     width: 50%;
-    font-size: 50%;
+    font-size: 40%;
     font-family:oldenglish;
 }
 
@@ -66,7 +66,7 @@ section {
     /* margin-top: 65px;
     margin-right: 65px; */
     width: 50%;
-    padding: 8px 65px;
+    padding: 8px 63px;
     margin-top: 35%;
 }
 
@@ -77,7 +77,7 @@ section {
     /* margin-right: 65px;
     margin-top: 65px; */
     width: 50%;
-    padding: 8px 65px;
+    padding: 8px 60px;
 
 }
 
@@ -85,7 +85,7 @@ section {
 .btn-ghost:visited {
     border: 1px solid#1abc9c;
     width: 50%;
-    padding: 8px 60px;
+    padding: 8px 52px;
 }
 
 .btn:hover,
@@ -113,7 +113,7 @@ section {
 
 .title-page-text-1 {
     font-family:oldenglish;
-    font-size: 55%;
+    font-size: 37%;
     width: 100%;
     color: #ffffff;
 }
