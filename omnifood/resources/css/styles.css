@@ -9,6 +9,15 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
 /* ---------------------------------- */
 /* BASIC SETUP */
 /* ---------------------------------- */
@@ -46,7 +55,8 @@ section {
 .btn:link,
 .btn:visited {
     display: inline-block;
-    position: relative;
+    justify-content: center;
+    align-items: center;
     font-weight: 300;
     text-decoration: none;
     border-radius: 200px;
@@ -114,8 +124,9 @@ section {
 .title-page-text-1 {
     font-family:oldenglish;
     font-size: 37%;
-    width: 100%;
     color: #ffffff;
+    text-align: center;
+    margin: auto;
 }
 
 .title-page-text-2 {
