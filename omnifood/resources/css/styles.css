@@ -1,6 +1,6 @@
 @font-face {
+    font-family: 'oldeenglish';
     src: url(../fonts/OldeEnglish.ttf) format('truetype');
-    font-family: olde;
 }
 
 html {
@@ -54,7 +54,7 @@ section {
     margin-top: 10%;
     width: 50%;
     font-size: 50%;
-    font-family: olde;
+    font-family: oldeenglish;
 }
 
 .btn-1:link,
@@ -110,7 +110,7 @@ section {
 /* ---------------------------------- */
 
 .title-page-text-1 {
-    font-family: olde;
+    font-family: oldeenglish;
     font-size: 55%;
     width: 100%;
     color: #ffffff;
