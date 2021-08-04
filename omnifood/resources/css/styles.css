@@ -2,7 +2,7 @@
     font-family: 'Old English Five Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Old English Five Regular'), url('/resources/fonts/OldEnglishFive-axyVg.woff') format('woff');
+    src: url('/resources/fonts/OldEnglishFive-axyVg.woff') format('woff');
     }
 
 html {
