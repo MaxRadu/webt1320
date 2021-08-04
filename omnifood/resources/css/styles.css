@@ -55,47 +55,36 @@ section {
 .btn:link,
 .btn:visited {
     display: inline-block;
-    justify-content: center;
-    align-items: center;
-    font-weight: 300;
+    text-align: center;
     text-decoration: none;
-    border-radius: 200px;
     color: #ffffff;
     transition: background-color 0.2s, border 0.2s, color 0.2s;
-    margin-left: 25%;
-    margin-top: 5%;
-    width: 50%;
+    width: 300px;
     font-size: 40%;
     font-family:oldenglish;
+    padding: 9px;
+    margin: 25px;
+    margin-top: 50px;
+    border-radius: 8px;
+
 }
 
 .btn-1:link,
 .btn-1:visited {
     color: #ffffff;
     border: 1px solid#1abc9c;
-    /* margin-top: 65px;
-    margin-right: 65px; */
-    width: 50%;
-    padding: 8px 63px;
-    margin-top: 35%;
 }
 
 .btn-2:link,
 .btn-2:visited {
     color: #ffffff;
     border: 1px solid#1abc9c;
-    /* margin-right: 65px;
-    margin-top: 65px; */
-    width: 50%;
-    padding: 8px 60px;
 
 }
 
 .btn-ghost:link,
 .btn-ghost:visited {
     border: 1px solid#1abc9c;
-    width: 50%;
-    padding: 8px 52px;
 }
 
 .btn:hover,
