@@ -1,9 +1,9 @@
 @font-face {
-    font-family: "oldeenglish";
-    src: url("/resources/fonts/OldeEnglish.ttf") format("truetype");
-    font-weight: normal;
+    font-family: 'Old English Five Regular';
     font-style: normal;
-}
+    font-weight: normal;
+    src: local('Old English Five Regular'), url('/resources/fonts/OldEnglishFive-axyVg.woff') format('woff');
+    }
 
 html {
     scroll-behavior: smooth;
@@ -56,7 +56,7 @@ section {
     margin-top: 10%;
     width: 50%;
     font-size: 50%;
-    font-family: oldeenglish;
+    font-family:Old English Five Regular;
 }
 
 .btn-1:link,
@@ -112,7 +112,7 @@ section {
 /* ---------------------------------- */
 
 .title-page-text-1 {
-    font-family: oldeenglish;
+    font-family:Old English Five Regular;
     font-size: 55%;
     width: 100%;
     color: #ffffff;
