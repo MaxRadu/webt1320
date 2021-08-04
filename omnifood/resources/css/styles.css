@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Old English Five Regular';
+    font-family: 'oldenglishfiveregular';
     font-style: normal;
     font-weight: normal;
     src: url('/resources/fonts/OldEnglishFive-axyVg.woff') format('woff');
@@ -56,7 +56,7 @@ section {
     margin-top: 10%;
     width: 50%;
     font-size: 50%;
-    font-family:Old English Five Regular;
+    font-family:oldenglishfiveregular;
 }
 
 .btn-1:link,
@@ -112,7 +112,7 @@ section {
 /* ---------------------------------- */
 
 .title-page-text-1 {
-    font-family:Old English Five Regular;
+    font-family:oldenglishfiveregular;
     font-size: 55%;
     width: 100%;
     color: #ffffff;
