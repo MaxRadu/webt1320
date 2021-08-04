@@ -1,6 +1,6 @@
 @font-face {
-    src: url(/resources/fonts/MKBrokenTypes.ttf);
-    font-family: mkbroken;
+    src: url(/resources/fonts/OldeEnglish.ttf);
+    font-family: olde;
 }
 
 html {
@@ -54,7 +54,7 @@ section {
     margin-top: 10%;
     width: 50%;
     font-size: 50%;
-    font-family: mkbroken;
+    font-family: olde;
 }
 
 .btn-1:link,
@@ -110,7 +110,7 @@ section {
 /* ---------------------------------- */
 
 .title-page-text-1 {
-    font-family: mkbroken;
+    font-family: olde;
     font-size: 55%;
     width: 100%;
     color: #ffffff;
