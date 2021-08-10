@@ -5,9 +5,14 @@
     src: url('../fonts/OldEnglishFive-axyVg.woff') format('woff');
     }
 
+/* ---------------------------------- */
+/* SCROLLING */
+/* ---------------------------------- */
+
 html {
     scroll-behavior: smooth;
 }
+
 
 body {
     margin: 0;
@@ -16,6 +21,14 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 20px;
 }
 
 /* ---------------------------------- */
