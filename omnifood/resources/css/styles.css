@@ -204,9 +204,11 @@ p {
 .logo {
     height: 100px;
     width: auto;
-    float: left;
+    float: right;
     margin-top: 20px;
-    border-radius: 8px;
+    margin-right: 7px;
+    margin-top: 7px;
+    border-radius: 32px;
 }
 
 /* ---STORE--- */
@@ -247,6 +249,20 @@ p {
     font-weight: 400;
     font-family:oldenglish;
     margin-bottom: 20px;
+}
+
+.sold-out-text-1 {
+    font-family: 'Noticia Text';
+    font-size: 45%;
+    color: rgb(202, 5, 5);
+    font-weight: 600;
+}
+
+.sold-out-text-2 {
+    font-family: 'Noticia Text';
+    font-size: 45%;
+    color: rgb(202, 5, 5);
+    font-weight: 600;
 }
 
 .store-page {
